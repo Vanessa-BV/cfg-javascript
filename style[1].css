@@ -1,0 +1,93 @@
+/* Styling for the main container */
+.container {
+  text-align: center; /* Center-align the content inside the container */
+  padding: 20px; /* Add padding of 20px to create some spacing inside the container */
+  border-radius: 5px; /* Round the corners of the container */
+  border: 1px solid lightgray; /* Add a 1px solid border with a light gray color */
+ background-color: 	rgb(176,196,222); /* Add a grey blue background color */
+  margin-top: 50px; /* Add a top margin of 50px */
+    margin-bottom: 50px; /* Add a bottom margin of 50px */
+}
+
+/* Styling for h2 elements */
+h2 {
+  margin-bottom: 30px; /* Add a bottom margin of 30px to create spacing below h2 elements */
+}
+
+/* Styling for h3 elements */
+h3 {
+  padding-top: 40px; /* Add a top padding to create more space above the headings */
+}
+
+/* Styling for form input elements with the class "form-control" */
+.form-control {
+  width: 100%; /* Set the width to 100% to make the input element fill its container */
+  padding: 8px; /* Add padding of 8px inside the input element */
+  border: 1px solid lightgray; /* Add a 1px solid border with a light gray color */
+  border-radius: 5px; /* Round the corners of the input element */
+  margin-bottom: 10px; /* Add a bottom margin of 10px to create spacing between input elements */
+}
+
+/* Styling for label elements */
+label {
+  display: block; /* Make the label elements block-level, so they take the full width available */
+  font-weight: bold; /* Make the label text bold */
+}
+
+/* Styling for the element with the ID "expensesContainer" */
+#expensesContainer {
+  padding-top: 20px; /* Add padding of 20px to the top to create spacing within the container */
+  border-top: 1px solid lightgray; /* Add a 1px solid border with a light gray color to the top of the container */
+}
+
+/* Styling for the element with the ID "incomeContainer" */
+#incomeContainer {
+  padding-top: 20px; /* Add padding of 20px to the top to create spacing within the container */
+  border-top: 1px solid lightgray; /* Add a 1px solid border with a light gray color to the top of the container */
+}
+
+/* Styling for the element with the ID "nameContainer" */
+#nameContainer {
+  padding-top: 20px; /* Add padding of 20px to the top to create spacing within the container */
+  border-top: 1px solid lightgray; /* Add a 1px solid border with a light gray color to the top of the container */
+}
+
+
+/* Styling for the "Calculate" button */
+#calculatebutton {
+  background-color: rgb(255, 200, 0); /* yellow button color */
+  color: white; /* Text color for the button */
+  border: none; /* Remove the button border */
+  padding: 10px 20px; /* Add padding to the button */
+  border-radius: 5px; /* Round the corners of the button */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+}
+
+/* Styling for buttons */
+.btn {
+  margin-right: 10px; /* Add a right margin of 10px to create spacing between buttons */
+}
+
+/* Styling for elements with the class "hidden" */
+.hidden {
+  display: none; /* Hide elements with the "hidden" class by default */
+}
+
+/* Styling for the element with the ID "result" */
+#result {
+  margin-top: 30px; /* Add a top margin of 30px to create spacing above the "result" section */
+  padding: 20px; /* Add padding to the result section to create spacing around the content */
+  border: 1px solid lightgray; /* Add a 1px solid border with a light gray color around the result section */
+  border-radius: 5px; /* Round the corners of the result section */
+  background-color: white; /* Set a white background color for the result section */
+}
+
+/* Styling for the "Results" heading */
+#result h4 {
+  margin-bottom: 20px; /* Add a bottom margin of 20px below the "Results" heading */
+}
+
+/* Styling for paragraphs displaying budget-related information */
+#result p {
+  margin-bottom: 10px; /* Add a bottom margin of 10px below each paragraph */
+}

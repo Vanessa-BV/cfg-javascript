@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Budget calculator - final project</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Main container -->
+<div class="container">
+
+  <!-- Heading for the budget calculator -->
+  <h2 class="text-center">Budget Calculator</h2>
+  
+    <!-- Greeting message -->
+    <h3 class="col-12">Hi! Nice to meet you &#x1F44B;. Let's calculate your budget.</h3>
+    
+    <!-- Container for the name input -->
+    <div id="nameContainer" class="col-12">
+      <input type="text" id="name" class="form-control" placeholder="What's your name?" />
+    </div>
+
+
+    <!-- Heading for the income section -->
+    <h3 class="col-12">Income &#x1F4B0;</h3>
+  
+    <!-- Container for the income inputs -->
+  <div class="row">
+    <div class="col-6">
+      <label for="salary">Salary:</label>
+      <input type="number" id="salary" class="form-control" placeholder="Enter your salary" />
+    </div>
+    <div class="col-6">
+      <label for="otherIncome">Other Income:</label>
+      <input type="number" id="otherIncome" class="form-control" placeholder="Enter your other income, if applicable" />
+    </div>
+  </div>
+
+      
+    <!-- Heading for the expenses section -->
+    <h3 class="col-12">Expenses &#x1F4B8;</h3>
+
+  <!-- Container for the expenses inputs -->
+  <div id="expensesContainer" class="row">
+    <div class="col-6">
+      <label for="rent">Rent:</label>
+      <input type="number" id="rent" class="form-control" placeholder="Enter rent expenses" />
+    </div>
+    <div class="col-6">
+      <label for="utilities">Utilities:</label>
+      <input type="number" id="utilities" class="form-control" placeholder="Enter utility expenses" />
+    </div>
+    <div class="col-6">
+      <label for="transportation">Transportation:</label>
+      <input type="number" id="transportation" class="form-control" placeholder="Enter transportation expenses" />
+    </div>
+    <div class="col-6">
+      <label for="phone">Phone Bills:</label>
+      <input type="number" id="phone" class="form-control" placeholder="Enter phone expenses" />
+    </div>
+    <div class="col-6">
+      <label for="insurances">Insurances:</label>
+      <input type="number" id="insurances" class="form-control" placeholder="Enter insurance expenses" />
+    </div>
+    <div class="col-6">
+      <label for="subscriptions">Subscriptions:</label>
+      <input type="number" id="subscriptions" class="form-control" placeholder="Enter subscription expenses" />
+    </div>
+    <div class="col-6">
+      <label for="personal">Personal (e.g., clothing):</label>
+      <input type="number" id="personal" class="form-control" placeholder="Enter personal expenses" />
+    </div>
+    <div class="col-6">
+      <label for="restaurant">Restaurant/Bars:</label>
+      <input type="number" id="restaurant" class="form-control" placeholder="Enter restaurant expenses" />
+    </div>
+  </div>
+
+
+  <!-- Line break before buttons -->
+  <br /><br />
+
+  <!-- Buttons to calculate and reset the budget -->
+  <button id="calculatebutton" class="btn btn-primary">Calculate</button>
+  <button id="resetbutton" class="btn btn-secondary">Reset</button>
+
+  <!-- Line break after buttons -->
+  <br /><br />
+
+  <!-- Container for the result section, initially hidden -->
+  <div id="result" class="hidden">
+    <!-- Heading for the result section -->
+    <h4>Results:</h4>
+    <!-- Paragraphs to display budget-related information -->
+    <p id="budgetSentence"></p>
+    <p id="totalIncome"></p>
+    <p id="totalExpenses"></p>
+    <p id="difference"></p>
+  </div>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
